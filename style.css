@@ -239,10 +239,12 @@ html,body{
      gap:0.8vw;
      /* background-color: red; */
      margin-left: 30%;
+     color: white;
+     font-size: 2vw;
 
  }
  .content-input{
-    font-size: 1.1vw;
+    font-size: 1.5vw;
     width: 25vw;
     padding: 1vw;
     border-radius: 10px;
@@ -250,12 +252,15 @@ html,body{
     /* color: #666; */
     outline: none;
     background-color: #666;
+    color:#fff;
+
  }  
  .content-input::placeholder{
     color: #b3acac;
 }
 
  .form1{
+    color: #fff;
     padding-top: 5px;
     border-radius: 20px;
 }
