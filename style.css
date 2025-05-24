@@ -62,9 +62,19 @@ html,body{
 #content h1{
     text-align: center;
     font-size: 5vw;
-     letter-spacing: -5px;
-     margin-top: 1vw;
+     letter-spacing: 2px;
+     font-family: "Gilroy";
+     /* margin-top: 1vw; */
      font-weight: 100;
+    
+}
+#content .nam1{
+    margin-bottom: -30px;
+}
+#content .nam{
+    font-size: vw;
+    margin-bottom: 10px;
+    /* margin-bottom: -10px; */
 }
 #content h3{
     margin-top: 1vw;
@@ -89,6 +99,7 @@ html,body{
     width: 100%;
     object-fit: cover;
     object-position: center;
+    margin-top: 20px;
 } 
  #text h4{
     margin-top: 1vw;
@@ -102,6 +113,7 @@ html,body{
     width: 100%;
     /* background-color: red; */
     background-image: url("https://images.pexels.com/photos/5828578/pexels-photo-5828578.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    /* background-image: url("https://plus.unsplash.com/premium_photo-1686064771021-fbd6e301a0e4?q=80&w=2093&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); */
     padding-top: 7vw;
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
@@ -156,14 +168,15 @@ html,body{
 #center-in{
     padding-top: 5vw;
     width: 50%;
+  text-align: justify;
 }
 #center-in h2{
-    font-size: 2.4vw;
+    font-size: 2vw;
     margin-bottom: 1vw;
 }
 #center-in p{
     margin: 0 0.4vw;
-    font-size: 1.74vw;
+    font-size: 1.5vw;
     /* background-color: blue; */
     color: gray;
     line-height: 2.5vw;
@@ -292,11 +305,11 @@ html,body{
 @media (max-width:768px){
      
 #page1{
-    /* background-color: #FFFFFF; */
-    height: 100vh;
-    width: 100%;
-    /* background-color: red; */
-    padding-top: 0.4vw;
+ 
+    
+    /* width: 100%; */
+    height: 140vh;
+    
 }
 #nav{
     height: 50px;
@@ -338,29 +351,30 @@ html,body{
     font-family: "Gilroy";
     overflow: hidden;
 }
-#content h1{
+#content .nam1{
     text-align: center;
     font-size:8vw;
-    letter-spacing: -1px;
-     margin-top: 3vw;
+    /* letter-spacing: -1px; */
+     /* margin-top: 13vw; */
      font-weight: bold;
      width: 50%;
-     margin-left: 27%;
+     margin-left: 25%;
      line-height: 8vw;
-     color: black;
+     color: rgb(0, 0, 0);
 }
-#content h3{
-    margin-top: 4vw;
+#content .nam1{
+    /* margin-top: 4vw; */
     text-align: center;
+    /* padding-bottom: 12vw; */
     font-size: 4vw;
     font-weight:600;
-    color: rgb(47, 45, 45);
+    color: rgb(0, 0, 0);
     font-family: "Plain light";
-    margin-bottom: 6vw;
+    margin-bottom: 1vw;
 }
 
 #img-div{
-    height: 40vh;
+    /* height: 40vh; */
     width: 80%;
     margin-left: 10%;
     /* background-color: red; */
@@ -416,7 +430,7 @@ html,body{
     line-height: 6.5vw;
 }
 #page3{
-    height: 210vh;
+    height: 300vh;
     width: 100%;
     background-color: #F7F7F7;
     /* background-color: blue; */
@@ -471,7 +485,7 @@ html,body{
 }
 
 #page4{
-    height: 300vh;
+    height: 450vh;
     width: 100%;
     background-color: #FFFFFF;
     /* background-color: rgb(120, 145, 148); */
@@ -484,7 +498,7 @@ html,body{
      color: rgb(0, 0, 0);
 }
 .center2{
-    /* height: 100vh; */
+    height: 100vh;
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;  
@@ -507,7 +521,7 @@ html,body{
 }
 #letf1{
     /* background-color: blue; */
-    height: 66vh;
+    height: 100vh;
     width: 100%;
     border: solid #000 2px;
     margin-bottom: 1vw;
@@ -526,7 +540,7 @@ html,body{
 }
 
 #footer{
-    height: 53vh;
+    height: 100vh;
     width: 100%;
     background-color: #000000;
     padding: 6vw 18vw;
