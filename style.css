@@ -1,4 +1,4 @@
-*{
+    *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -307,8 +307,7 @@ html,body{
 #page1{
  
     
-    /* width: 100%; */
-    height: 140vh;
+height: 110vh;
     
 }
 #nav{
@@ -400,7 +399,7 @@ html,body{
 }
 
 #page2{
-    height: 75vh;
+    /* height: 75vh; */
     width: 100%;
     /* background-color: red; */
     background-image: url("https://images.pexels.com/photos/5828578/pexels-photo-5828578.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
@@ -430,7 +429,7 @@ html,body{
     line-height: 6.5vw;
 }
 #page3{
-    height: 300vh;
+    /* height: 300vh; */
     width: 100%;
     background-color: #F7F7F7;
     /* background-color: blue; */
@@ -485,7 +484,7 @@ html,body{
 }
 
 #page4{
-    height: 450vh;
+    height: 240vh;
     width: 100%;
     background-color: #FFFFFF;
     /* background-color: rgb(120, 145, 148); */
@@ -498,7 +497,7 @@ html,body{
      color: rgb(0, 0, 0);
 }
 .center2{
-    height: 100vh;
+    height: 10vh;
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;  
@@ -521,8 +520,8 @@ html,body{
 }
 #letf1{
     /* background-color: blue; */
-    height: 100vh;
-    width: 100%;
+    height: 53vh;
+    /* width: 100%; */
     border: solid #000 2px;
     margin-bottom: 1vw;
 }
@@ -540,7 +539,7 @@ html,body{
 }
 
 #footer{
-    height: 100vh;
+    height: 50vh;
     width: 100%;
     background-color: #000000;
     padding: 6vw 18vw;
