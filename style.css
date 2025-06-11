@@ -359,7 +359,7 @@ height: 110vh;
      width: 50%;
      margin-left: 25%;
      line-height: 8vw;
-     color: rgb(0, 0, 0);
+     color: rgb(30, 28, 28);
 }
 #content .nam1{
     /* margin-top: 4vw; */
@@ -368,7 +368,7 @@ height: 110vh;
     font-size: 4vw;
     font-weight:600;
     color: rgb(0, 0, 0);
-    font-family: "Plain light";
+    /* font-family: "Plain light"; */
     margin-bottom: 1vw;
 }
 
@@ -407,6 +407,9 @@ height: 110vh;
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
     background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #page2 h2{
     margin-top: 12vw;
@@ -424,7 +427,8 @@ height: 110vh;
     margin-left: 14.5%;
     margin-left: 14.5%;
     font-size: 5vw;
-    color: rgb(122, 120, 120);
+    /* color: rgb(122, 120, 120); */
+    color: white;
     z-index: 999;
     line-height: 6.5vw;
 }
